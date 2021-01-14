@@ -1,3 +1,6 @@
+--kcharlesr
+
+
 -- 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 SELECT 
     e.emp_no,
@@ -83,3 +86,12 @@ SELECT
 FROM employees
 GROUP BY last_name
 ORDER BY COUNT(last_name) DESC;
+
+-- 1. 300024
+-- 2. 36150
+-- 3. 24
+-- 4. 331603
+-- 5. 20
+-- 6. 52245
+-- 7. 137952
+-- 8. 1638
